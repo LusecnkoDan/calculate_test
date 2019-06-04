@@ -1,3 +1,10 @@
+dist: xenial
+os: linux
+addons:
+  apt:
+    packages:
+      - libqt4-dev
+      - qt5-default
 language:
   - cpp
 
