@@ -1,6 +1,6 @@
 dist: xenial
 language: 
-   - cpp
+  - cpp
 os: linux
 addons:
   apt:
