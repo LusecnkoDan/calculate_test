@@ -6,6 +6,13 @@ addons:
     packages:
       - libqt4-dev
       - qt5-default
+     
+addons:
+  sonarcloud:
+    organization: "lusecnkodan-github"
+    token:
+      secure: $SONAR_TOKEN
+      
 before_install:
 - pip install --user cpp-coveralls
 
